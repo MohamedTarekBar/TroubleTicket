@@ -1,0 +1,18 @@
+{
+  "name": "back",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/MohamedTarekBar/TroubleTicket.git",
+  "author": "MohamedTarekBar <77550770+MohamedTarekBar@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "start": "tsc && node dist/index.js", 
+    "git": "git add . && git commit -m 'TT' && git push"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
